@@ -9,18 +9,36 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/cards.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/netflix.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
 </head>
   <body>
   
     <header>
         <div class="banner">
             <img src="./images/peliculas/avengers_endgame.jpg" alt="" class="banner_img">
-            
+            <div class="menu">
+              <nav class="navbar navbar-inverse">
+                  <div class="navbar-header">
+                      <a class="navbar-brand" href="#"><h3><span class="mex1">ME</span><span class="mex2">XFL</span><span class="mex3">IX</span></h3></a>
+                  </div>
+                  <ul class="nav navbar-nav navbar-right"></ul>
+                    <div class="searchbar">
+                      <input class="search_input" type="text" name="" placeholder="Search...">
+                      <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                  </nav>
+              </nav>
+            </div>
             <div class="acciones">
+                <h1>Avengers EndGame</h1>
                 <p class="banner_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi architecto error dolorum perspiciatis quibusdam labore.</p>
                 <a class="btn btn-lg btn-outline-danger btn-lg"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
             </div>
@@ -28,88 +46,1129 @@
     </header>
     
     <main>
-      <div class="degradado"></div>
-      <div class="accordian">
-        <ul>
-          <li>
-            <div class="image_title">
-              <a href="#">KungFu Panda</a>
-            </div> 
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/3yiC6Yq.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Toy Story 2</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/40Ly3VB.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Wall-E</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/00kih8g.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Up</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/2rT2vdx.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Cars 2</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Cars 2</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Cars 2</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Cars 2</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
-            </a>
-          </li>
-          <li>
-            <div class="image_title">
-              <a href="#">Cars 2</a>
-            </div>
-            <a href="#">
-              <img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <div class="degradado"><h5>CIENCIA FICCIÓN</h5></div>
+      <section class="lista_peliculas">
+        <div class="swiper-container s1">
+
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="card">
+                    <div class="poster"><img src = "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/1/11/Avengers_Infinity_war_poster.jpeg/revision/latest/scale-to-width-down/324?cb=20180316141550"></div>
+                      <div class="details">
+                        <h2>Avengers Infinity War (2018)</h2>
+                        <div class="rating">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                              <span class="fantasy">Fantasy</span>
+                              <span class="scifi">Sci Fi</span>
+                            </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                    
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                          
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+            
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="poster"><img src = "https://images-na.ssl-images-amazon.com/images/I/71c-O3GaxLL._SY679_.jpg"></div>
+                        <div class="details">
+                          <h2>Star Wars (2017)</h2>
+                    
+                          <div class="rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span>5/5</span>
+                          </div>
+                    
+                          <!--div class="tags">
+                              <span class="fantasy">Fantasy</span>
+                              <span class="scifi">Sci Fi</span>
+                            </div-->
+                    
+                          <div class="info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                          </div>
+                    
+                          <div class="star">
+                            <h4>Cast</h4>
+                            <ul>
+                              <li><img src = "https://vignette.wikia.nocookie.net/es.starwars/images/a/a9/Carrie_Fisher.jpg/revision/latest?cb=20110817134809"></li>
+                              <li><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mark_Hamill_%282017%29.jpg/250px-Mark_Hamill_%282017%29.jpg"></li>
+                              <li><img src = "https://vignette.wikia.nocookie.net/starwars/images/8/89/Star-Wars-The-Force-Awakens-Premiere-John-Boyega-4.jpg/revision/latest?cb=20180430012157"></li>
+                              <li><img src = ""></li>
+                              <li><img src=""></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="play">
+                              <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                          </div>
+            
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="poster"><img src = "https://static.posters.cz/image/750/poster/los-juegos-del-hambre-sinsajo-parte-1-katniss-i22816.jpg"></div>
+                        <div class="details">
+                          <h2>Juegos del Hambre (2013)</h2>
+                    
+                          <div class="rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span>5/5</span>
+                          </div>
+                    
+                          <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                    
+                          <div class="info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                          </div>
+                    
+                          <div class="star">
+                            <h4>Cast</h4>
+                            <ul>
+                              <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                              <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                              <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                              <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                              <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="play">
+                              <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                          </div>
+            
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="poster"><img src = "https://i.pinimg.com/originals/5e/03/2f/5e032f9ccbd6117b252a4fd7091ed52b.jpg"></div>
+                        <div class="details">
+                          <h2>Black Panther (2018)</h2>
+                    
+                          <div class="rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span>5/5</span>
+                          </div>
+                    
+                          <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                    
+                          <div class="info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                          </div>
+                    
+                          <div class="star">
+                            <h4>Cast</h4>
+                            <ul>
+                              <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                              <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                              <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                              <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                              <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="play">
+                              <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                          </div>
+            
+                        </div>
+                      </div>
+                </div>
+              </div> <!--END ROW-->  
+            </div><!--END SWIPER SLIDE-->
+            <div class="swiper-slide">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="card">
+                    <div class="poster"><img src = "http://t1.gstatic.com/images?q=tbn:ANd9GcSNuQHrsPeVHiab8vlU-tfS-btQ8jednhQpH0jgcyrLJODBPk72"></div>
+                      <div class="details">
+                        <h2>La Mujer Maravilla (2018)</h2>
+                        <div class="rating">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                              <span class="fantasy">Fantasy</span>
+                              <span class="scifi">Sci Fi</span>
+                            </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                    
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                          
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+            
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="poster"><img src = "https://i.pinimg.com/originals/9b/f0/f7/9bf0f7e9b69a5b5ddce5619b50049a96.jpg"></div>
+                        <div class="details">
+                          <h2>Matrix (1999)</h2>
+                    
+                          <div class="rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span>5/5</span>
+                          </div>
+                    
+                          <!--div class="tags">
+                              <span class="fantasy">Fantasy</span>
+                              <span class="scifi">Sci Fi</span>
+                            </div-->
+                    
+                          <div class="info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                          </div>
+                    
+                          <div class="star">
+                            <h4>Cast</h4>
+                            <ul>
+                              <li><img src = "https://static01.diariodenavarra.es/uploads/imagenes/bajacalidad/2013/05/21/_keanureeves_679db606.jpg?11110543b85258aa791c499e62401b53"></li>
+                              <li><img src = "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/laurence-fishburne-31.6.jpg"></li>
+                              <li><img src = "http://img3.wikia.nocookie.net/__cb20120824174600/fiftyshadesofgrey/images/a/a4/Carrie-anne-moss-mobile-wallpaper.jpeg"></li>
+                              <li><img src = ""></li>
+                              <li><img src=""></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="play">
+                              <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                          </div>
+            
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="poster"><img src = "./images/peliculas/posters/acuaman.jpeg"></div>
+                        <div class="details">
+                          <h2>Acuaman (2018)</h2>
+                    
+                          <div class="rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span>5/5</span>
+                          </div>
+                    
+                          <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                    
+                          <div class="info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                          </div>
+                    
+                          <div class="star">
+                            <h4>Cast</h4>
+                            <ul>
+                              <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                              <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                              <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                              <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                              <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="play">
+                              <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                          </div>
+            
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="poster"><img src = "./images/peliculas/posters/prometeo.jpeg"></div>
+                        <div class="details">
+                          <h2>Prometeo (2015)</h2>
+                    
+                          <div class="rating">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="t  rue"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <span>5/5</span>
+                          </div>
+                    
+                          <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                    
+                          <div class="info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                          </div>
+                    
+                          <div class="star">
+                            <h4>Cast</h4>
+                            <ul>
+                              <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                              <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                              <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                              <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                              <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="play">
+                              <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                          </div>
+            
+                        </div>
+                      </div>
+                </div>
+              </div> <!--END ROW-->  
+            </div><!--END SWIPER SLIDE-->
+          </div>
+          
+        </div> <!--END SWIPER-->
+
+      </section>
+
+      <div class="degradado"><h5>DIBUJOS ANIMADOS</h5></div>
+      <section class="lista_peliculas">
+    
+        <div class="swiper-container s2">
+
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="poster"><img src = "./images/peliculas/posters/era_de_hielo.jpeg"></div>
+                    <div class="details">
+                      <h2>La Era de Hielo (2018)</h2>
+                      <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>5/5</span>
+                      </div>
+                
+                      <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                
+                      <div class="info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                      </div>
+                  
+                      <div class="star">
+                        <h4>Cast</h4>
+                        <ul>
+                          <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                          <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                          <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                          <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                          <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                        </ul>
+                      </div>
+                        
+                      <div class="play">
+                          <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                      </div>
+          
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/minions.jpg"></div>
+                      <div class="details">
+                        <h2>Los Minions (2017)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://vignette.wikia.nocookie.net/es.starwars/images/a/a9/Carrie_Fisher.jpg/revision/latest?cb=20110817134809"></li>
+                            <li><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mark_Hamill_%282017%29.jpg/250px-Mark_Hamill_%282017%29.jpg"></li>
+                            <li><img src = "https://vignette.wikia.nocookie.net/starwars/images/8/89/Star-Wars-The-Force-Awakens-Premiere-John-Boyega-4.jpg/revision/latest?cb=20180430012157"></li>
+                            <li><img src = ""></li>
+                            <li><img src=""></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/como_entrenar_a_tu_dragon.jpg"></div>
+                      <div class="details">
+                        <h2>Como Entrenar a tu Dragon</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/toy_story.jpg"></div>
+                      <div class="details">
+                        <h2>Black Panther (2018)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+            </div> <!--END ROW-->  
+          </div><!--END SWIPER SLIDE-->
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="poster"><img src = "./images/peliculas/posters/frozen.jpg"></div>
+                    <div class="details">
+                      <h2>Frozen (2018)</h2>
+                      <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>5/5</span>
+                      </div>
+                
+                      <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                
+                      <div class="info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                      </div>
+                  
+                      <div class="star">
+                        <h4>Cast</h4>
+                        <ul>
+                          <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                          <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                          <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                          <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                          <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                        </ul>
+                      </div>
+                        
+                      <div class="play">
+                          <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                      </div>
+          
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/lorax.jpg"></div>
+                      <div class="details">
+                        <h2>El Lorax (1999)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://static01.diariodenavarra.es/uploads/imagenes/bajacalidad/2013/05/21/_keanureeves_679db606.jpg?11110543b85258aa791c499e62401b53"></li>
+                            <li><img src = "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/laurence-fishburne-31.6.jpg"></li>
+                            <li><img src = "http://img3.wikia.nocookie.net/__cb20120824174600/fiftyshadesofgrey/images/a/a4/Carrie-anne-moss-mobile-wallpaper.jpeg"></li>
+                            <li><img src = ""></li>
+                            <li><img src=""></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/increibles.jpg"></div>
+                      <div class="details">
+                        <h2>Juegos del Hambre (2013)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/ralph.jpg"></div>
+                      <div class="details">
+                        <h2>Black Panther (2018)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+            </div> <!--END ROW-->  
+          </div><!--END SWIPER SLIDE-->
+        </div>
+        
+      </div> <!--END SWIPER-->
+
+      </section>
+    
+      <div class="degradado"><h5>BASADAS EN HECHOS REALES</h5></div>
+      <section class="lista_peliculas">
+      <div class="swiper-container s3">
+
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="poster"><img src = "./images/peliculas/posters/titanic.jpg"></div>
+                    <div class="details">
+                      <h2>El Titanic (2018)</h2>
+                      <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>5/5</span>
+                      </div>
+                
+                      <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                
+                      <div class="info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                      </div>
+                  
+                      <div class="star">
+                        <h4>Cast</h4>
+                        <ul>
+                          <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                          <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                          <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                          <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                          <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                        </ul>
+                      </div>
+                        
+                      <div class="play">
+                          <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                      </div>
+          
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/milagros.jpg"></div>
+                      <div class="details">
+                        <h2>Milagros Inesperados (2017)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://vignette.wikia.nocookie.net/es.starwars/images/a/a9/Carrie_Fisher.jpg/revision/latest?cb=20110817134809"></li>
+                            <li><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mark_Hamill_%282017%29.jpg/250px-Mark_Hamill_%282017%29.jpg"></li>
+                            <li><img src = "https://vignette.wikia.nocookie.net/starwars/images/8/89/Star-Wars-The-Force-Awakens-Premiere-John-Boyega-4.jpg/revision/latest?cb=20180430012157"></li>
+                            <li><img src = ""></li>
+                            <li><img src=""></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/desde_mi_cielo.jpg"></div>
+                      <div class="details">
+                        <h2>Desde mi Cielo (2013)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/pianista.jpeg"></div>
+                      <div class="details">
+                        <h2>El Pianista (2018)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+            </div> <!--END ROW-->  
+          </div><!--END SWIPER SLIDE-->
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="poster"><img src = "./images/peliculas/posters/siempre_a_tu_lado.jpg"></div>
+                    <div class="details">
+                      <h2>Siempre a tu Lado (2018)</h2>
+                      <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>5/5</span>
+                      </div>
+                
+                      <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                
+                      <div class="info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                      </div>
+                  
+                      <div class="star">
+                        <h4>Cast</h4>
+                        <ul>
+                          <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                          <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                          <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                          <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                          <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                        </ul>
+                      </div>
+                        
+                      <div class="play">
+                          <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                      </div>
+          
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/lo_imposible.jpeg"></div>
+                      <div class="details">
+                        <h2>Lo Imposible (1999)</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                            <span class="fantasy">Fantasy</span>
+                            <span class="scifi">Sci Fi</span>
+                          </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://static01.diariodenavarra.es/uploads/imagenes/bajacalidad/2013/05/21/_keanureeves_679db606.jpg?11110543b85258aa791c499e62401b53"></li>
+                            <li><img src = "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/laurence-fishburne-31.6.jpg"></li>
+                            <li><img src = "http://img3.wikia.nocookie.net/__cb20120824174600/fiftyshadesofgrey/images/a/a4/Carrie-anne-moss-mobile-wallpaper.jpeg"></li>
+                            <li><img src = ""></li>
+                            <li><img src=""></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/hasta-el-ultimo-hombre.jpg"></div>
+                      <div class="details">
+                        <h2>Hasta el Último Hombre</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="card">
+                      <div class="poster"><img src = "./images/peliculas/posters/viven.jpg"></div>
+                      <div class="details">
+                        <h2>Viven</h2>
+                  
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span>5/5</span>
+                        </div>
+                  
+                        <!--div class="tags">
+                          <span class="fantasy">Fantasy</span>
+                          <span class="scifi">Sci Fi</span>
+                        </div-->
+                  
+                        <div class="info">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                        </div>
+                  
+                        <div class="star">
+                          <h4>Cast</h4>
+                          <ul>
+                            <li><img src = "https://www.famousbirthdays.com/headshots/robert-downey-jr-2.jpg"></li>
+                            <li><img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU1MTM0NzA2NzQ3MTg4NDQw/chris-evans-arrives-at-the-los-angeles-premiere-of-captain-america-the-winter-soldier-held-at-the-el-capitan-theatre-on-march-13-2014-in-hollywood-california-photo-by-michael-tran_filmmagicjpg-square.jpg"></li>
+                            <li><img src = "https://www.india-forums.com/images/celebrity/l_12804.jpg"></li>
+                            <li><img src = "https://imageresizer.static9.net.au/LYRtJfSVUFCURsyAlx6qdMXJzwI=/400x0/http%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2FNetwork%2FImages%2Favengers300616Scarjo.jpg"></li>
+                            <li><img src="https://www.famousbirthdays.com/faces/boseman-chadwick-image.jpg"></li>
+                          </ul>
+                        </div>
+                        
+                        <div class="play">
+                            <a class="btn btn-lg btn-danger btn-sm"><i class="far fa-play-circle"></i></i> Ver Pelicula</a>
+                        </div>
+          
+                      </div>
+                    </div>
+              </div>
+            </div> <!--END ROW-->  
+          </div><!--END SWIPER SLIDE-->
+        </div>
+        
+      </div> <!--END SWIPER-->
+
+      </section>
     </main>
 
-    <footer class="footer">
-      <div class="container-fluid">ass</div>
-    </footer>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+  
+          <h3><span class="mex1">ME</span><span class="mex2">XFL</span><span class="mex3">IX</span></h3>
+          <p class="footer-company-name">Rubensin Software &copy; 2019</p>
+        </div>
+  
+        <div class="footer-center">
+  
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>109 Plaza San Isidro</span> Celaya, Guanajuato</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+52 461 2279093</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="/cdn-cgi/l/email-protection#98ebede8e8f7eaecd8fbf7f5e8f9f6e1b6fbf7f5"><span class="__cf_email__" data-cfemail="8ffcfaffffe0fdfbcfece0e2ffeee1f6a1ece0e2">isctorres@gmail.com</span></a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+  
+          </div>
+  
+        </div>
+  
+      </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./js/functions.js"></script>
