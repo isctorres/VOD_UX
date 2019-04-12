@@ -1,0 +1,25 @@
+  html {
+    box-sizing: border-box;
+   }
+   
+   *,
+   *:before,
+   *:after {
+    box-sizing: inherit;
+   }
+   
+   body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    background: #7a419b;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7c1599 0%, #921099 48%, #7e4ae8 100%);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background: url(http://eskipaper.com/images/blue-space-pictures-1.jpg);
+   }
+   
+   
